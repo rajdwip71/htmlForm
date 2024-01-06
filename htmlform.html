@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowrab Tree Plants   </title>
+    <style>
+        .Section1,.Section2,.thirdsection{
+            margin:0 20%;
+            
+        }
+        fieldset{
+            padding: 30px;
+        }
+        label{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="Section1">
+            <fieldset style="background-color: lightcyan;">
+                <legend>Fill up the form</legend>
+                <label for="Name">
+                    Enter Your Name: 
+                    <input type="text" placeholder="Write your name">
+                </label> <br> <br>
+                <label for="Email"> 
+                    Enter Your Email :
+                    <input type="email" name="Email" id="email" placeholder="example: abcd@gmail.com">
+                </label> 
+                <label for="Submit">
+                    <input type="submit" value="Log in">
+                </label>
+
+            </fieldset>
+        </section>
+        <section class="Section2">
+            <fieldset>
+                <legend>
+                    Select Your Item
+                </legend>
+                
+                
+                <label for="RojoniGondha"><input type="radio" name="treePlant" id="RojoniGondha">RojoniGondha</label>
+                
+                <label for="Gadha"><input type="radio" name="treePlant" id="Gadha">Gadha</label>
+
+                <label for="krisnachura"><input type="radio" name="treePlant" id="krisnachura">Krisnachura</label>
+                
+                <label for="orgun"><input type="radio" name="treePlant" id="Orgun">Orgun</label>
+               
+                <label for="submit" style="margin-left: 10px;">
+                    <input type="submit" value="Submit">
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Select one or more plants </legend>
+                <label for="RajaniGindha">
+                    <input type="checkbox" name="Tree"    id="RajaniGindha"> Rajanigondha
+                </label>
+                <label for="Gadha"><input type="checkbox" name="Tree" id="Gadha">Gadha</label>
+                <label for="Krisnachura"><input type="checkbox" name="Tree" id="Krisnachura">Krisnachura</label>
+                <label for="Orgun"><input type="checkbox" name="Tree" id="Orgun">Orgun</label>
+                <label for="reset" style="display: inline;">
+                    <input type="reset" value="Reset">
+                </label> 
+                <label for="Submit" style="display: inline;"><input type="submit" value="Submit"></label>
+                
+            </fieldset>
+
+        </section>
+        <section class="thirdsection">
+            <fieldset>
+                <legend>Write Comment</legend>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+                <label for="Submit">
+                    <input type="submit" value="Submit">
+                </label>
+            </fieldset>
+        </section>
+
+    </main>
+    
+</body>
+</html>
